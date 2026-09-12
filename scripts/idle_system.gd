@@ -4,7 +4,7 @@ extends Node
 class_name IdleSystem
 
 var idle_rate: float = 1.0  # Currency per second
-var total_idle_earnings: int = 0
+var total_idle_earnings: float = 0.0
 
 func _ready() -> void:
 	set_process(true)

@@ -17,8 +17,8 @@ config/features=PackedStringArray("4.0")
 
 [autoload]
 
-GameManager="*res://scripts/game_manager.gd"
-IdleSystem="*res://scripts/idle_system.gd"
+GameManager="res://scripts/game_manager.gd"
+IdleSystem="res://scripts/idle_system.gd"
 
 [display]
 

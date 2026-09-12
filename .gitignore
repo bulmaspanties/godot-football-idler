@@ -1,0 +1,30 @@
+# Godot 4+ specific ignores
+.godot/
+*.tmp
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.la
+*.lai
+
+# Godot-specific
+.import/
+*.translation
+*.pot
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+export/
+builds/

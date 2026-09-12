@@ -18,7 +18,7 @@ func _process(delta: float) -> void:
 	# Add to GameManager when we've earned at least 1 full unit
 	if total_idle_earnings >= 1.0:
 		var amount_to_add = int(total_idle_earnings)
-		GameManager.add_currency(amount_to_add)
+		get_tree().root.get_node("GameManager").add_currency(amount_to_add)
 		total_idle_earnings -= amount_to_add
 
 func set_idle_rate(new_rate: float) -> void:
